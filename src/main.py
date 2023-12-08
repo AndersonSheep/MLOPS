@@ -1,4 +1,3 @@
-
 from tensorflow.keras import layers, Sequential, optimizers
 from dvclive import Live
 from dvclive.keras import DVCLiveCallback
