@@ -23,5 +23,5 @@ jobs:
           git config --global user.name "AndersonSheep"
           git clone https://github.com/AndersonSheep/MLOPS.git
           cd MLOPS
-          # dvc pull --verbose
+          dvc pull --verbose
           dvc exp run # repro                        # Reproduce pipeline  para treinar do 0: dvc exp run
